@@ -33,5 +33,7 @@ root@6d943786cd4c:~# unzip -: 11.zip
 Archive:  11.zip
 
   inflating: ../../../tmp/1.txt
+root@6d943786cd4c:~# ls /tmp
+1.txt
 root@6d943786cd4c:~#
 ```
