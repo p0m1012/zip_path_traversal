@@ -4,7 +4,7 @@ java生成包含../目录的压缩包
 ## 使用
 `java -jar generateZip.jar parm1 parm2 parm3`
 
-parm1为被压缩的文件、parm2为生成压缩文件的路径、parm3为添加的跨目录符号，如../../../sss/
+//第一个参数是需要压缩的源路径；第二个参数是压缩文件的目的路径，这边需要将压缩的文件名字加上去;第三个参数为zip压缩包中的目录命名
 
 ## Example
 `java -jar generateZip.jar "D:\\dir1\\dir2\\dir3\\test.txt"  "D:\\dir1\\dir2\\dir3\\test.zip" "../../"`
