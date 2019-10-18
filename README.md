@@ -8,4 +8,5 @@ parm1为被压缩的文件、parm2为生成压缩文件的路径、parm3为添�
 
 ## Example
 java -jar generateZip.jar "D:\\dir1\\dir2\\dir3\\test.txt"  "D:\\dir1\\dir2\\dir3\\test.zip" "../../"
-会在D:\\dir1\\dir2\\dir3\\生成目录结构为../../test.txt的test.zip压缩包，该压缩包解压会跳到D:\\dir1\\test.txt
+
+在D:\\dir1\\dir2\\dir3\\生成目录结构为../../test.txt的test.zip压缩包，该压缩包解压会跳到D:\\dir1\\test.txt
