@@ -15,16 +15,25 @@ java生成包含../目录的压缩包
 linux下使用unzip解压该zip包路径会被限制：
 
 (```) 
+
 root@6d943786cd4c:~# unzip 11.zip 
+
 Archive:  11.zip
+
 warning:  skipped "../" path component(s) in ../../../tmp/1.txt
+
   inflating: tmp/1.txt 
+  
 (```)
 
 使用`unzip -: 11.zip`解压被不会被限制
 
 (```)
+
 root@6d943786cd4c:~# unzip -: 11.zip 
+
 Archive:  11.zip
+
   inflating: ../../../tmp/1.txt
+  
 (```)
